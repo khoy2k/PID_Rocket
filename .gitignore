@@ -1,0 +1,25 @@
+.DS_Store
+
+# Build outputs
+.pio/
+build/
+dist/
+
+# Data products
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# MATLAB/Simulink generated files
+*.slxc
+*.asv
+*.autosave
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Local notes
+*.log
